@@ -1,0 +1,21 @@
+{
+  "name": "theshadestore/google_content_api_shopping",
+  "description": "Library to connect and maintain Google Merchant Account through Google Content API",
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "GoogleContentApi\\": "src/"
+    },
+    "authors": [
+      {
+        "name": "Renato Lovato",
+        "email": "rlovato@theshadestore.com"
+      }
+    ],
+    "license": "proprietary"
+  }
+}
